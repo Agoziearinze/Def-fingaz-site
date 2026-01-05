@@ -8,7 +8,9 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-clip: content-box;
-  height: 91vh;
+  height: 100vh;
+  height: 100dvh;
+  max-height: 100vh !important;
   overflow: hidden;
 }
 .hero-section .container-hero-section .slides-track {
@@ -30,23 +32,24 @@
 }
 .hero-section .container-hero-section .hero {
   padding: 0 var(--space-32);
-  padding-top: 150px;
-  padding-bottom: var(--space-64);
-  background: var(--color-card-bg);
+  padding-top: 120px;
+  display: flex;
+  justify-content: center;
   text-align: center;
   width: 100%;
   position: absolute;
   top: 0;
+  left: 0;
+  right: 0;
   z-index: 555;
   background: transparent;
   backdrop-filter: blur(1px);
   background: rgba(0, 0, 0, 0.7);
-  display: flex;
-  justify-content: flex-start;
   flex-direction: column;
   align-items: center;
   gap: var(--space-96);
-  height: 92vh;
+  inset: 0;
+  height: auto;
 }
 .hero-section .container-hero-section .hero .container-articles {
   width: 57%;
@@ -127,7 +130,7 @@
 /* Trackers */
 .hero-section .container-hero-section .hero .trackers {
   position: absolute;
-  bottom: 65px;
+  bottom: 10px;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
@@ -164,25 +167,13 @@
   width: 100%;
   margin-top: 50px;
 }
-/* .container-team-defingaz
-  .container-team-defingaz-padding
-  .carousel-container
-  .slides {
-  transform: 0.3;
-  animation: 0.3 ease;
-  gap: 20px;
-  display: flex;
-  width: 100%;
-} */
 .container-team-defingaz
   .container-team-defingaz-padding
   .carousel-container
   .slide {
-  /* box-sizing: border-box; */
   border: 1px solid var(--color-border);
   border-radius: var(--radius-card);
   background-color: var(--color-card-bg);
-  overflow: hidden;
 }
 .container-team-defingaz
   .container-team-defingaz-padding
@@ -266,12 +257,13 @@
   margin-top: var(--space-32);
   display: flex;
   justify-content: center;
-  gap: var(--space-16);
+  gap: var(--space-24);
 }
 .container-team-control-button button {
   background-color: var(--color-card-bg);
   border: none;
-  padding: 14px 16px;
+  height: 46px;
+  width: 46px;
   border-radius: 100px;
   transition: 1s;
   animation: 1s ease-in;
