@@ -115,13 +115,13 @@
         <nav aria-label="breadcrumb">
           <ol>
             <li>
-              <a href="./index.html">
-                <img src="./asset/images/svgs/home.svg" alt="Home icon"> Home
+              <a href="./index.html" id="home-breadcrumb">
+                <img src="./asset/images/svgs/home.svg" alt="Home icon" id="img-breadcrumb-1"> Home
               </a>
             </li>
-            <li>
-              <img src="./asset/images/svgs/chevron-right.svg" alt="">
-              <span>Services</span>
+            <li id="services-breadcrumb">
+              <img src="./asset/images/svgs/chevron-right.svg" alt="chevron-right icon" id="img-breadcrumb-2">
+              <span id="span1">Services</span>
             </li>
           </ol>
         </nav>
@@ -129,11 +129,12 @@
 
         <hr id="service-horizontal-rule">  
         <div id="service-header">
-          <h3 style="text-align: center; color: white;">Our Services</h3>
-            <p style="text-align: center;">
-              Professional audio services tailored to 
-              bring your creative vision to life
-            </p>
+          <h3 style="color: white;">
+            Our Services
+          </h3>
+          <p>
+            Professional audio services tailored to bring your creative vision to life
+          </p>
         </div>
 
         <div id="services-container">
@@ -196,111 +197,126 @@
 <!-- Services grid ends here -->
 
 <!-- Service Details begins here -->
-    <section id="service-details">    
-      <h3 style="text-align: center; color: white;">Service Details</h3>
-      <p style="text-align: center;">Explore our comprehensive audio services designed to meet 
-          all your production needs
-      </p>
+    <section id="service-details">
+      <div id="service-details-header">
+        <h3 style="color: white;">
+          Service Details
+        </h3>
+        <p>
+          Explore our comprehensive audio services designed to meet all your production needs
+        </p>
+      </div>
+      
 
       <div class="services-box-details">
-        <div id="svg-box-color1">
-          <img class="image-svg" src="./asset/images/svgs2(white)/mic.svg" alt="">
-        </div>
+        <div class="svg-header-p">
+          <div id="svg-box-color1">
+            <img class="image-svg" src="./asset/images/svgs2(white)/mic.svg" alt="">
+          </div>
 
-        <h3 class="txt-details">Recording</h3>
-        <p>
-          State-of-the-art recording facilities with world-class equipment and acoustically 
-          treated rooms designed to capture your sound with pristine clarity.
-        </p>
+          <h4 class="txt-details">Recording</h4>
+          <p>
+            State-of-the-art recording facilities with world-class equipment and acoustically 
+            treated rooms designed to capture your sound with pristine clarity.
+          </p>
+        </div>
             
         <div class="service-lists">
           <ul>
-            <li>✓ Vocal recording booths with professional isolation</li>
-            <li>✓ Industry-standard microphones and preamps</li>
-            <li>✓ Real-time monitoring and headphone mixes</li>
+            <li><img src="./asset/images/svgs/check.svg" alt=""> Vocal recording booths with professional isolation</li>
+            <li><img src="./asset/images/svgs/check.svg" alt=""> Industry-standard microphones and preamps</li>
+            <li><img src="./asset/images/svgs/check.svg" alt=""> Real-time monitoring and headphone mixes</li>
           </ul>
           <ul>
-            <li>✓ Live room for band and ensemble recording</li>                
-            <li>✓ High-end analog and digital recording equipment</li>
-            <li>✓ Experienced engineers to guide your session</li>
+            <li><img src="./asset/images/svgs/check.svg" alt=""> Live room for band and ensemble recording</li>                
+            <li><img src="./asset/images/svgs/check.svg" alt=""> High-end analog and digital recording equipment</li>
+            <li><img src="./asset/images/svgs/check.svg" alt=""> Experienced engineers to guide your session</li>
           </ul>
         </div>
       </div>
 
       <div class="services-box-details">
-        <div id="svg-box-color2">
-          <img class="image-svg" src="./asset/images/svgs2(white)/sliders.svg" alt="">
-        </div>
+        <div class="svg-header-p">
+          <div id="svg-box-color2">
+            <img class="image-svg" src="./asset/images/svgs2(white)/sliders.svg" alt="">
+          </div>
 
-        <h3 class="txt-details">Mixing & Mastering</h3>
-        <p>
-          Transform your raw recordings into polished, professional tracks ready for release 
-          on any platform with our expert mixing and mastering services.
-        </p>
+          <h4 class="txt-details">Mixing & Mastering</h4>
+          <p>
+            Transform your raw recordings into polished, professional tracks ready for release 
+            on any platform with our expert mixing and mastering services.
+          </p>
+        </div>
+        
 
         <div class="service-lists">
           <ul>
-            <li>✓ Professional mixing with analog and digital tools</li>
-            <li>✓ Industry-standard microphones and preamps</li>
-            <li>✓ Real-time monitoring and headphone mixes</li>
+            <li><img src="./asset/images/svgs/check.svg" alt=""> Professional mixing with analog and digital tools</li>
+            <li><img src="./asset/images/svgs/check.svg" alt=""> Industry-standard microphones and preamps</li>
+            <li><img src="./asset/images/svgs/check.svg" alt=""> Real-time monitoring and headphone mixes</li>
           </ul>
           <ul>
-            <li>✓ Stereo and stem mastering options</li>                
-            <li>✓ High-end analog and digital recording equipment</li>
-            <li>✓ Experienced engineers to guide your session</li>
+            <li><img src="./asset/images/svgs/check.svg" alt=""> Stereo and stem mastering options</li>                
+            <li><img src="./asset/images/svgs/check.svg" alt=""> High-end analog and digital recording equipment</li>
+            <li><img src="./asset/images/svgs/check.svg" alt=""> Experienced engineers to guide your session</li>
           </ul>
         </div>
       </div>
 
       <div class="services-box-details">
-        <div id="svg-box-color3">
-          <img class="image-svg" src="./asset/images/svgs2(white)/music.svg" alt="">
+        <div class="svg-header-p">
+          <div id="svg-box-color3">
+            <img class="image-svg" src="./asset/images/svgs2(white)/music.svg" alt="">
+          </div>
+
+          <h4 class="txt-details">Production</h4>
+          <p>
+            Complete music production services from initial concept to final master, 
+            bringing your creative vision to life with professional expertise.
+          </p>
         </div>
-            
-        <h3 class="txt-details">Production </h3>
-        <p>
-          Complete music production services from initial concept to final master, 
-          bringing your creative vision to life with professional expertise.
-        </p>
+        
 
         <div class="service-lists">
           <ul>
-            <li>✓ Vocal recording booths with professional isolation</li>
-            <li>✓ Industry-standard microphones and preamps</li>
-            <li>✓ Real-time monitoring and headphone mixes</li>
+            <li><img src="./asset/images/svgs/check.svg" alt=""> Vocal recording booths with professional isolation</li>
+            <li><img src="./asset/images/svgs/check.svg" alt=""> Industry-standard microphones and preamps</li>
+            <li><img src="./asset/images/svgs/check.svg" alt=""> Real-time monitoring and headphone mixes</li>
           </ul>
           <ul>
-            <li>✓ Live room for band and ensemble recording</li>                
-            <li>✓ High-end analog and digital recording equipment</li>
-            <li>✓ Experienced engineers to guide your session</li>
+            <li><img src="./asset/images/svgs/check.svg" alt=""> Live room for band and ensemble recording</li>                
+            <li><img src="./asset/images/svgs/check.svg" alt=""> High-end analog and digital recording equipment</li>
+            <li><img src="./asset/images/svgs/check.svg" alt=""> Experienced engineers to guide your session</li>
           </ul>
         </div>
       </div>
 
       <div class="services-box-details">
+        <div class="svg-header-p">
           <div id="svg-box-color4">
             <img class="image-svg" src="./asset/images/svgs2(white)/radio.svg" alt="">
           </div>
 
-          <h3 class="txt-details">Podcast Services</h3>
+          <h4 class="txt-details">Podcast Services</h4>
           <p>
             Professional podcast production services to ensure your message is heard with 
             crystal-clear audio quality and engaging production value.
           </p>
-
-          <div class="service-lists">
-            <ul>
-              <li>✓ Vocal recording booths with professional isolation</li>
-              <li>✓ Industry-standard microphones and preamps</li>
-              <li>✓ Real-time monitoring and headphone mixes</li>
-            </ul>
-            <ul>
-              <li>✓ Live room for band and ensemble recording</li>                
-              <li>✓ High-end analog and digital recording equipment</li>
-              <li>✓ Experienced engineers to guide your session</li>
-            </ul>
-          </div>
         </div>
+
+        <div class="service-lists">
+          <ul>
+            <li><img src="./asset/images/svgs/check.svg" alt=""> Vocal recording booths with professional isolation</li>
+            <li><img src="./asset/images/svgs/check.svg" alt=""> Industry-standard microphones and preamps</li>
+            <li><img src="./asset/images/svgs/check.svg" alt=""> Real-time monitoring and headphone mixes</li>
+          </ul>
+          <ul>
+            <li><img src="./asset/images/svgs/check.svg" alt=""> Live room for band and ensemble recording</li>                
+            <li><img src="./asset/images/svgs/check.svg" alt=""> High-end analog and digital recording equipment</li>
+            <li><img src="./asset/images/svgs/check.svg" alt=""> Experienced engineers to guide your session</li>
+          </ul>
+        </div>
+      </div>
     </section>
 <!-- Service Details ends here -->
 
