@@ -1,0 +1,116 @@
+#prices-list {
+  background-color: hsla(249, 13%, 19%, 0.192);
+  padding-top: var(--space-8);
+  padding-bottom: var(--space-64);
+}
+
+#price-header {
+  text-align: center;
+  margin-top: var(--space-96);
+  margin-bottom: var(--space-48);
+}
+
+#price-header h3{
+  margin-bottom: var(--space-20);
+  font-weight: var(--font-weight-medium);
+}
+
+#prices-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    padding-left: 47px;
+    gap: var(--space-20);
+}
+
+.prices-box-header {
+    text-align: center;
+    margin-bottom: var(--space-64);
+}
+
+.prices-box-header h4 {
+    margin-bottom: var(--space-16);
+}
+
+.prices-box-header p {
+    margin-bottom: var(--space-16);
+}
+
+.prices-box-header span {
+    color: var(--color-text-white);
+}
+
+.prices-box {
+    background-color: var(--color-card-bg);
+    width: 23pc;
+    height: 85vh;
+    overflow: hidden;
+    border-radius: 15px;
+    padding: var(--space-24);
+    border: 1px solid var(--color-border); 
+}
+
+.primary {
+    border: 1px solid var(--color-border-purple); 
+}
+
+.price-lists li {
+    margin-bottom: var(--space-16);
+}
+
+.price-lists img {
+  vertical-align: middle;
+  margin-right: var(--space-8);
+}
+
+.pricing-btn {
+    text-align: center;
+}
+
+#basic-btn button {
+    background: var(--color-border);
+    color: var(--color-text-white);
+    margin-top: var(--space-8);
+    border: none;
+    border-radius: 10px;
+    width: 300px;
+    padding: 15px;
+    box-shadow: 2px var(--color-border);
+}
+
+#basic-btn button:hover {
+    background: rgb(88, 88, 88);
+    cursor: pointer;
+}
+
+#primary-btn button {
+    background: var(--color-purple-primary);
+    color: var(--color-text-white);
+    margin-top: var(--space-8);
+    border: none;
+    border-radius: 10px;
+    width: 300px;
+    padding: 15px;
+    box-shadow: 2px var(--color-border);
+}
+
+#primary-btn button:hover {
+    background: var(--color-purple-dark);
+    cursor: pointer;
+}
+
+#secondary-btn button {
+    background: var(--color-border);
+    color: var(--color-text-white);
+    margin-top: var(--space-8);
+    border: none;
+    border-radius: 10px;
+    width: 300px;
+    padding: 15px;
+    box-shadow: 2px var(--color-border);
+}
+
+#secondary-btn button:hover {
+    background: rgb(88, 88, 88);
+    cursor: pointer;
+}

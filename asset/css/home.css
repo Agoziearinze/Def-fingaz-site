@@ -12,6 +12,7 @@
   height: 100dvh;
   max-height: 100vh !important;
   overflow: hidden;
+  margin-bottom: var(--space-96);
 }
 .hero-section .container-hero-section .slides-track {
   display: flex;

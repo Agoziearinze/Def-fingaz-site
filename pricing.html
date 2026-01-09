@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./asset/css/style.css">
+    <link rel="stylesheet" href="./asset/css/responsive.css" />
+    <title>Pricing page</title>
+</head>
+<body>
+    <!-- Navbar start from here -->
+
+    <nav class="navbar __main-pages-navbar">
+      <div class="container-navbar-padding">
+
+        <!-- Container logo and dropdown menu button -->
+
+        <div class="navbar-container-logo">
+          <div
+            class="container-navbar-logo"
+            style="
+              display: flex;
+              justify-content: flex-start;
+              align-items: center;
+              gap: 12px;
+            "
+          >
+            <div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="30"
+                height="30"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#a855f7"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="feather feather-music"
+              >
+                <path d="M9 18V5l12-2v13"></path>
+                <circle cx="6" cy="18" r="3"></circle>
+                <circle cx="18" cy="16" r="3"></circle>
+              </svg>
+            </div>
+            <a href="./index.html">Def fingaz</a>
+          </div>
+          <div class="container-mobile-navbar-dropdown">
+            <button class="dropdown-btn">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#a855f7"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="feather feather-align-justify"
+              >
+                <line x1="21" y1="10" x2="3" y2="10"></line>
+                <line x1="21" y1="6" x2="3" y2="6"></line>
+                <line x1="21" y1="14" x2="3" y2="14"></line>
+                <line x1="21" y1="18" x2="3" y2="18"></line>
+              </svg>
+
+              <!-- cancel svg -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#a855f7"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="feather feather-x svg-hidden"
+              >
+                <line x1="18" y1="6" x2="6" y2="18"></line>
+                <line x1="6" y1="6" x2="18" y2="18"></line>
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <!-- Container articles for list and book session button -->
+
+        <div class="container-ul-list-btn __navbar-mobile-dropdown">
+          <div class="container-ul">
+            <ul>
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./services.html">Services</a></li>
+              <li><a href="./portfoli.html">Portfolio</a></li>
+              <li><a href="./shop.html">Shop</a></li>
+              <li><a href="./pricing.html">Pricing</a></li>
+              <li><a href="./contact.html">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="container-navbar-btn">
+            <button class="navbar-book-session-btn">Book Session</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+    
+<!-- Navbar ends -->   
+ 
+<!-- Breadcrumbs starts here -->
+    <div id="breadcrumb-row">
+        <nav aria-label="breadcrumb">
+          <ol>
+            <li>
+              <a href="./index.html" id="home-breadcrumb">
+                <img src="./asset/images/svgs/home.svg" alt="Home icon" id="img-breadcrumb-1"> Home
+              </a>
+            </li>
+            <li id="services-breadcrumb">
+              <img src="./asset/images/svgs/chevron-right.svg" alt="chevron-right icon" id="img-breadcrumb-2">
+              <span id="span1">Pricing</span>
+            </li>
+          </ol>
+        </nav>
+        <hr id="service-horizontal-rule">  
+      </div>
+<!-- Breadcrumbs ends -->
+
+<!-- Pricing plans starts -->
+    <section id="prices-list">  
+        <div id="price-header">
+          <h3 style="color: white;">
+            Pricing Plans
+          </h3>
+          <p>
+            Flexible pricing options to fit your project needs and budget
+          </p>
+        </div>
+
+        <div id="prices-container">
+            <div class="prices-box basic">
+                <div class="prices-box-header">
+                    <h4>Basic</h4>
+                    <p> <span>$50</span> per hour</p>
+                    <p>Perfect for independent artists and demos</p>
+                </div>
+                <div class="price-lists">
+                    <ul>
+                        <li><img src="./asset/images/svgs/check.svg" alt="">Recording session (1 hour)</li>
+                        <li><img src="./asset/images/svgs/check.svg" alt="">Basic mixing included</li>
+                        <li><img src="./asset/images/svgs/check.svg" alt="">1 revision</li>
+                        <li><img src="./asset/images/svgs/check.svg" alt="">Standard equipment</li>                
+                        <li><img src="./asset/images/svgs/check.svg" alt="">Digital delivery</li>
+                    </ul>
+                </div>
+
+                <div id="basic-btn">
+                    <button>choose plan</button>
+                </div>
+            </div>
+        
+
+            <div class="prices-box primary">
+                <div class="prices-box-header">
+                    <h4>Professional</h4>
+                    <p> <span>$150</span> per session</p>
+                    <p>Perfect for independent artists and demos</p>
+                </div>
+                <div class="price-lists">
+                    <ul>
+                        <li><img src="./asset/images/svgs/check.svg" alt="">Recording session (4 hours)</li>
+                        <li><img src="./asset/images/svgs/check.svg" alt="">Professional mixing</li>
+                        <li><img src="./asset/images/svgs/check.svg" alt="">3 revisions</li>
+                        <li><img src="./asset/images/svgs/check.svg" alt="">Premium equipment</li>                
+                        <li><img src="./asset/images/svgs/check.svg" alt="">Digital delivery</li>
+                        <li><img src="./asset/images/svgs/check.svg" alt="">Producer assistance</li>
+                        <li><img src="./asset/images/svgs/check.svg" alt="">Cloud storage</li>
+                    </ul>
+                </div>
+
+                <div id="primary-btn">
+                    <button>choose plan</button>
+                </div>
+            </div>
+
+
+            <div class="prices-box secondary">
+                <div class="prices-box-header">
+                    <h4>Premium</h4>
+                    <p> <span>$500</span> per day</p>
+                    <p>Perfect for independent artists and demos</p>
+                </div>
+                <div class="price-lists">
+                    <ul>
+                        <li><img src="./asset/images/svgs/check.svg" alt="">Full day session (8 hours)</li>
+                        <li><img src="./asset/images/svgs/check.svg" alt="">Professional mixing & mastering</li>
+                        <li><img src="./asset/images/svgs/check.svg" alt="">Unlimited revisions</li>
+                        <li><img src="./asset/images/svgs/check.svg" alt="">Premium equipment</li>                
+                        <li><img src="./asset/images/svgs/check.svg" alt="">Digital + physical delivery</li>
+                        <li><img src="./asset/images/svgs/check.svg" alt="">Dedicated producer</li>
+                        <li><img src="./asset/images/svgs/check.svg" alt="">Cloud storage</li>
+                        <li><img src="./asset/images/svgs/check.svg" alt="">Priority booking</li>
+                    </ul>
+                </div>
+                <div id="secondary-btn">
+                    <button>choose plan</button>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Pricing plans ends -->
+
+<!-- Footer begins here -->
+    <footer class="pages-footer">
+      <div class="container-footer-padding">
+        <div class="top-footer-container">
+          <div class="container-footer-left">
+            <div class="footer-logo">
+              <div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  height="30"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#a855f7"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="feather feather-music"
+                >
+                  <path d="M9 18V5l12-2v13"></path>
+                  <circle cx="6" cy="18" r="3"></circle>
+                  <circle cx="18" cy="16" r="3"></circle>
+                </svg>
+              </div>
+              <p>Def fingaz</p>
+            </div>
+
+            <div class="container-article">
+              <p>
+                Professional music production studio bringing your creative
+                vision to life.
+              </p>
+            </div>
+          </div>
+
+          <div class="container-footer-middle-container">
+            <div class="footer-left-middle-container">
+              <p>Quick Links</p>
+
+              <div class="container-ul">
+                <ul>
+                  <li><a href="./index.html">Home</a></li>
+                  <li><a href="./services.html">Services</a></li>
+                  <li><a href="./portfoli.html">Portfolio</a></li>
+                  <li><a href="./shop.html">Shop</a></li>
+                  <li><a href="./pricing.html">Pricing</a></li>
+                  <li><a href="./contact.html">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="footer-left-middle-container">
+              <p>Services</p>
+
+              <div class="container-ul">
+                <ul>
+                  <li>Recording</li>
+                  <li>Mixing & Mastering</li>
+                  <li>Production</li>
+                  <li>Podcast Services</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="container-newsletter">
+            <div class="newsletter-header"><p>Newsletter</p></div>
+            <div class="newsletter-article">
+              <span
+                >Subscribe to get updates on special offers and new
+                services.</span
+              >
+            </div>
+            <div class="container-newsletter-form">
+              <form action="#">
+                <input
+                  type="email"
+                  name="newsletter-email"
+                  id="newsletter-email"
+                  placeholder="Your email"
+                />
+                <button>Subscribe</button>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-container-bottom">
+          <div class="left-container">
+            <p>&copy; 2026 Def fingaz studio. All rights reserved.</p>
+          </div>
+
+          <div class="right-container">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+<!-- Footer ends here -->
+
+  <script src="./asset/js/main.js"></script>
+  <script src="./asset/js/form-validation.js"></script>
+  <script src="./asset/js/navigation.js"></script>
+  <script src="./asset/js/players.js"></script>
+</body>
+</html>
