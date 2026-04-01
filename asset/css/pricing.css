@@ -44,10 +44,32 @@
     background-color: var(--color-card-bg);
     width: 23pc;
     height: 85vh;
-    overflow: hidden;
     border-radius: 15px;
     padding: var(--space-24);
-    border: 1px solid var(--color-border); 
+    border: 1px solid var(--color-border);
+    position: relative;
+}
+
+.popular-tag {
+    position: absolute;
+    top: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: linear-gradient(135deg, var(--color-purple-primary), var(--color-purple-dark));
+    color: var(--color-text-white);
+    padding: var(--space-4) var(--space-16);
+    border-radius: 99px;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 0 4px 12px rgba(168, 85, 247, 0.4);
+    z-index: 10;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.professional {
+    border: 1px solid var(--color-border-purple);
 }
 
 .primary {
@@ -67,6 +89,10 @@
     text-align: center;
 }
 
+#basic-btn {
+    text-align: center;
+}
+
 #basic-btn button {
     background: var(--color-border);
     color: var(--color-text-white);
@@ -74,43 +100,63 @@
     border: none;
     border-radius: 10px;
     width: 300px;
+    max-width: 100%;
     padding: 15px;
     box-shadow: 2px var(--color-border);
+    transition: all 0.3s ease;
 }
 
 #basic-btn button:hover {
     background: rgb(88, 88, 88);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
     cursor: pointer;
 }
 
-#primary-btn button {
+#professional-btn {
+    text-align: center;
+}
+
+#professional-btn button {
     background: var(--color-purple-primary);
     color: var(--color-text-white);
     margin-top: var(--space-8);
     border: none;
     border-radius: 10px;
     width: 300px;
+    max-width: 100%;
     padding: 15px;
     box-shadow: 2px var(--color-border);
+    transition: all 0.3s ease;
 }
 
-#primary-btn button:hover {
+#professional-btn button:hover {
     background: var(--color-purple-dark);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(168, 85, 247, 0.2);
     cursor: pointer;
 }
 
-#secondary-btn button {
+#premium-btn {
+    text-align: center;
+}
+
+#premium-btn button {
     background: var(--color-border);
     color: var(--color-text-white);
     margin-top: var(--space-8);
     border: none;
     border-radius: 10px;
     width: 300px;
+    max-width: 100%;
     padding: 15px;
     box-shadow: 2px var(--color-border);
+    transition: all 0.3s ease;
 }
 
-#secondary-btn button:hover {
+#premium-btn button:hover {
     background: rgb(88, 88, 88);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
     cursor: pointer;
 }

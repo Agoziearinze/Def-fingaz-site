@@ -134,6 +134,10 @@ span {
   color: var(--color-text-gray);
   transition: 0.5s ease-in-out;
 }
+.navbar .container-navbar-padding .container-ul-list-btn .container-ul ul li a.nav-active {
+  color: var(--color-text-white);
+  text-shadow: 0 0 10px var(--color-purple-primary), 0 0 20px rgba(168, 85, 247, 0.4);
+}
 .navbar
   .container-navbar-padding
   .container-ul-list-btn
